@@ -40,7 +40,7 @@ class AbstractSpec extends Specification {
             }
         });
         sf.get(20,TimeUnit.SECONDS);
-        client = new RestClient().create();
+        client = new RestClient().create(verticle.getPort());
     }
 
 

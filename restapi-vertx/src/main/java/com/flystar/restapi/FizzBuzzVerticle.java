@@ -30,16 +30,21 @@ public class FizzBuzzVerticle extends AbstractVerticle{
     private final Logger LOG = LoggerFactory.getLogger(this.getClass());
     private HttpServer httpServer;
 
+    public final int getPort(){
+        final String port = System.getProperty("http.port");
+        return Integer.parseInt(Utils.isNullOrEmpty(port)?"9080":port);
+    }
+
     @Override
     public void start(Future<Void> startFuture) throws Exception {
         LOG.info("Starting server....");
         final Router router = Router.router(vertx);
-        httpServer = vertx.createHttpServer().requestHandler(router::accept).listen(9000, res -> {
+        httpServer = vertx.createHttpServer().requestHandler(router::accept).listen(getPort(), res -> {
             if(res.succeeded()){
-                LOG.info("Server started at port 9000");
+                LOG.info("Server started at port "+getPort());
                 startFuture.complete();
             }else{
-                LOG.info("Server failed to start.");
+                LOG.info("Server failed to start at port "+getPort());
                 startFuture.fail(res.cause());
             }
         });

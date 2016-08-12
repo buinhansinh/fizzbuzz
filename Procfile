@@ -1,0 +1,1 @@
+web: java -Dhttp.port=9080 -jar restapi-vertx/target/restapi-vertx-1.0-SNAPSHOT-fat.jar
