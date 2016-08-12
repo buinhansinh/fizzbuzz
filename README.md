@@ -13,11 +13,7 @@ https://stormy-cliffs-15199.herokuapp.com/fizzbuzz/classic
 ## To test api
 
 ```
-curl
--k 
--H "Content-type: application/json"
---data '{"numbers":"1,2,3,4,5,6,7,8,9,10"}'
-https://stormy-cliffs-15199.herokuapp.com/fizzbuzz/classic
+curl -k -H "Content-type: application/json" --data '{"numbers":"1,2,3,4,5,6,7,8,9,10"}' https://stormy-cliffs-15199.herokuapp.com/fizzbuzz/classic
 ```
 
 ## To build project
