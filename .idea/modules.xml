@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/fizzbuzz-game.iml" filepath="$PROJECT_DIR$/fizzbuzz-game.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fizzbuzz-strategy/fizzbuzz-strategy.iml" filepath="$PROJECT_DIR$/fizzbuzz-strategy/fizzbuzz-strategy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/restapi-vertx/restapi-vertx.iml" filepath="$PROJECT_DIR$/restapi-vertx/restapi-vertx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-api/service-api.iml" filepath="$PROJECT_DIR$/service-api/service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-core/service-core.iml" filepath="$PROJECT_DIR$/service-core/service-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-utils/service-utils.iml" filepath="$PROJECT_DIR$/service-utils/service-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-integration/test-integration.iml" filepath="$PROJECT_DIR$/test-integration/test-integration.iml" />
+    </modules>
+  </component>
+</project>
