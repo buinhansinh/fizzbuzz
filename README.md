@@ -3,6 +3,12 @@
 * Vertx
 * jax-rs, spock for testing
 * Heroku platform
+* 
+## Performance Test Report using BlazeMeter
+
+```
+https://a.blazemeter.com/app/?public-token=gEwKrXlk9Ca5Z3DfhQ7fwjPv8RdZOVWkLcPhhkwFfHimeZBilD#masters/15491331/summary
+```
 
 ## Heroku Public link
 
