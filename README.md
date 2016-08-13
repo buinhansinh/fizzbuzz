@@ -6,9 +6,12 @@
  
 ## Performance Test Report using BlazeMeter
 
-```
+### Small TEst
 https://a.blazemeter.com/app/?public-token=gEwKrXlk9Ca5Z3DfhQ7fwjPv8RdZOVWkLcPhhkwFfHimeZBilD#masters/15491331/summary
-```
+
+### Max throughput test with 50 concurrent users.
+https://a.blazemeter.com/app/?public-token=Ogq0Q6gWfDigPw1t9ti3sf5nP1Pt2maMNr9t2pdGnMX6uYvF59#masters/15491341/summary
+
 
 ## Heroku Public link
 
